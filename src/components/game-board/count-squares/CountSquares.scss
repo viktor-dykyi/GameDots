@@ -1,0 +1,20 @@
+.count {
+    &__pressed-squares {
+        font-size: 17px;
+        font-weight: 400;
+        margin-left: 20px;
+        color: #00ea6f;
+    }
+
+    &__missed-squares {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #e8595e;
+    }
+    &__container-counts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,18 @@
+.square {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+
+    &__highlighted {
+        background-color: #44d8e8;
+    }
+
+    &__pressed {
+        background-color: #00e970;
+    }
+
+    &__missed {
+        background-color: #e8595e;
+    }
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import ErrorBoundary from "./components/error-boundary/ErrorBoundary";
+import GameBoard from "./components/game-board/GameBoard";
+import LeaderBoard from "./components/Leader-board/LeaderBoard";
 
 function App() {
+  const [winners , setWinners] = useState([]);
+  const handleSetWinners = (winnerList) => {
+   setWinners(winnerList.reverse());
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ErrorBoundary>
+        <GameBoard onSetWinners={handleSetWinners}/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <LeaderBoard onSetWinners={handleSetWinners} winners={winners}/>
+      </ErrorBoundary>
     </div>
   );
 }

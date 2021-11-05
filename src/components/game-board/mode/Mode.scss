@@ -1,0 +1,18 @@
+.mode {
+    &__options-container {
+        margin-right: 10px;
+        width: 180px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #cfd8dc;
+        border: none;
+        color: #8a9a9f;
+        font-size: 17px;
+        font-weight: 400;
+        padding-left: 14px;
+    }
+
+    &__options-container:focus {
+        outline: none !important;
+    }
+}
