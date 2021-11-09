@@ -1,3 +1,22 @@
+# GameDots
+
+## ScreenShots
+
+### Desktop UI
+
+![screencapture-localhost-3001-2021-11-09-17_22_46](https://user-images.githubusercontent.com/79012453/140952666-525d2e34-f9b0-4764-938d-9c90696487ae.png)
+
+![screencapture-localhost-3001-2021-11-09-17_25_54](https://user-images.githubusercontent.com/79012453/140952949-4ad04de2-04b8-415f-a78d-e9b0d55d72d7.png)
+
+![screencapture-localhost-3001-2021-11-09-17_27_11](https://user-images.githubusercontent.com/79012453/140953229-c442f011-5966-4647-87fa-a6fe52ef3fcc.png)
+
+### Mobile UI
+
+![screencapture-localhost-3001-2021-11-09-17_29_12](https://user-images.githubusercontent.com/79012453/140953793-a410de5f-ac59-4de6-8318-993cf54ebd5e.png)
+
+![screencapture-localhost-3001-2021-11-09-17_32_56](https://user-images.githubusercontent.com/79012453/140954340-2a600232-e64b-4b73-91bc-669b70125b15.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
